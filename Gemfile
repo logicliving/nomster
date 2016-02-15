@@ -28,6 +28,10 @@ gem 'jbuilder', '~> 1.2'
 gem 'rails_12factor', group: :production
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
+
+#Simple form Gem
+gem 'simple_form'
+
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
