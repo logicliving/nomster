@@ -38,8 +38,14 @@ gem 'devise', '>= 3.2.4'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
-## Gemfile for Rails 3+, Sinatra, and Merb
+# Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.0.6'
+
+# Gemfile for Geocoder
+gem 'geocoder'
+
+#Gem for Figaro 
+gem "figaro", ">= 1.0.0"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
