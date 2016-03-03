@@ -34,7 +34,9 @@
 
         <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>
+          <div class="welcome pull-left">
             <li>Welcome back <%= current_user.email %></li>
+          </div>
             <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
           <% else %>
             <li><%= link_to 'Sign in', new_user_session_path %></li>
