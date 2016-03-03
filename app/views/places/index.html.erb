@@ -22,6 +22,11 @@
 					<%= place.comments.last.message %>
 					<small><%= place.comments.last.user.email %></small>
 				</blockquote>
+
+				<% if place.photos.present? && place.photos.last.picture.present? %>
+					<b><%=image_tag place.photos.last.picture, class: 'img-responsive' %></b><br />
+				<% end %>
+			
 			</div>
 		<% end %>
 	</div>
